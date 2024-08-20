@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fnbo.css">
+    <link rel="icon" href="favicon4.ico" type="image/x-icon">
+    <title>FNBO</title>
+</head>
+
+<body>
+    <div class="introduction">
+        <h2> FNBO </h2>
+
+        <h5> May 2024 - Aug. 2024 </h4>
+
+        <p id="experience"> My second internship came at the end of my sophmore year and was with First National Bank of Omaha which is one of the largest privately owned banks in the world. My role with them was development regarding ETL and data transformation, particularly between SQL, Informatica, and Salesforce. </p> 
+
+        <img src="fnbo.png" class = "fnbo" alt = "FNBO Logo">
+
+    </div>
+
+    <div class="informatica">
+
+        <h3> Informatica & Salesforce </h3>
+
+        <p> The team that I worked on was responsible for data loads into Salesforce, which acted as the primary CRM for the company. Every night, tens of millions of records would be upserted into our Saleforce records. </p>
+
+        <p> I wrote several workflows and mappings that transformed, filtered, or mitigated security issues within, the data. </p>
+
+        <p> This gave me a fantastic look into how enterprise data is handled, as well as how change management happens in a large organization. </p>
+
+        <p> FNBO had rigorous testing in place to ensure that production changes were vetted before being deployed to users. </p>
+
+        <img src="informatica.png" class = "informaticaimage" alt = "Informatica Mapping">
+
+    </div>
+
+    <div class="apex">
+
+        <h3> Apex & Salesforce </h3>
+
+        <p> One of my favorite projects that I worked on was the nullification of credit card numbers that were input into insecure forms. </p>
+
+        <p> I used Apex, Salesforce's Java based language, to scan each form and check for any valid credit cards via the <a href="https://en.wikipedia.org/wiki/Luhn_algorithm" target="_blank"><strong> Luhn Algorithm </strong></a> &#8599;. If the numbers were valid, I used Regex to remove the first eight characters and then pass that last four into our database. </p>
+
+        <p> To ensure that my changes were without fault, I created over forty unit tests which provided 100% code coverage. These tests checked for possible security issues and failure points. </p>
+
+        <img src="apex.png" class = "apeximage" alt = "Apex Code">
+
+    </div>
+
+    <div class = "headhome">
+
+      <p><a href="index.html"><strong>&larr; Head Home</strong></a></p>
+
+    </div>
+
+</body>
+
+</html>

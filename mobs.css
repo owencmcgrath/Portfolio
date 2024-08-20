@@ -1,0 +1,61 @@
+body 
+{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #FAF9F6;
+  font-size: 24px;
+  line-height: 37px;
+  padding: 40px;
+}
+
+.introduction, .databasedesign, .backendrouting, .APIs, .headhome
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.introduction h2 
+{
+  align-self: flex-start;
+  text-align: left; 
+}
+
+.databasedesign h3, .backendrouting h3, .APIs h3 
+{
+  align-self: flex-start;
+  text-align: left;
+}
+
+.introduction h5 
+{
+  align-self: flex-start;
+  text-align: left;
+
+}
+
+.mobs, .table, .forgotpassword, .emailreset 
+{
+  width: 800px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+
+a, a:visited 
+{
+  text-decoration: none; 
+  color: inherit; 
+}
+
+@media screen and (max-width: 768px) {
+  .mobs, .table, .forgotpassword, .emailreset {
+    width: 100%;
+    height: auto;
+  }
+}
