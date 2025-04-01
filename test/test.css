@@ -1,10 +1,11 @@
 body {
+    font-family: "Urbanist";
     background-color: rgb(40, 75, 143);
     margin-left: 75px;
 }
 
 .divname {
-    font-family: "Droid Sans Mono", monospace;
+    /* font-family: "Droid Sans Mono", monospace; */
     font-size: 35px;
     display: flex;
     color: white;
@@ -15,7 +16,7 @@ body {
 }
 
 .divposition {
-    font-family: "DM Sans", Arial, sans-serif;
+    /* font-family: "DM Sans", Arial, sans-serif; */
     font-size: 75px;
     color: white;
     justify-content: left;
@@ -32,7 +33,7 @@ body {
 
 #locationtext {
     color: white;
-    font-family: "DM Sans", Arial, sans-serif;
+    /* font-family: "DM Sans", Arial, sans-serif; */
     font-size: 40px;
     margin-left: 10px;
 }
